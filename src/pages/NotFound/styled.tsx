@@ -62,30 +62,32 @@ export const ActionButtonsContainer = styled.div`
 
 export const GoBackButton = styled.button`
   padding: 10px 20px;
-  background-color: ${color("actionDefault")};
-  color: ${color("textPrimary")};
-  border: none;
+  background-color: ${color("brandPrimary")};
+  border: 2px solid ${color("brandPrimary")};
+  color: ${color("textOnBrand")};
   border-radius: 8px;
   cursor: pointer;
   box-shadow: ${shadow("sm")};
   font-weight: 500;
-  transition: background-color 300ms ease;
+  transition: opacity 300ms ease;
+
   &:hover {
-    background-color: ${color("actionHover")};
+    opacity: 0.88;
   }
 `;
 
 export const GoHomeButton = styled.button`
   padding: 10px 20px;
-  background-color: ${color("actionSecondary")};
+  background-color: transparent;
+  border: 2px solid ${color("brandPrimary")};
   color: ${color("brandPrimary")};
-  border: none;
   border-radius: 8px;
   cursor: pointer;
   box-shadow: ${shadow("sm")};
   font-weight: 500;
-  transition: background-color 300ms ease;
+  opacity: 0.8;
+  transition: opacity 300ms ease;
   &:hover {
-    background-color: ${color("actionSecondaryHover")};
+    opacity: 1;
   }
 `;

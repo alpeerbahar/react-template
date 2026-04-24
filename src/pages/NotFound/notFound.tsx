@@ -1,6 +1,8 @@
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 import * as S from "./styled";
 
 function NotFound() {
+  useDocumentTitle("404 - Sayfa Bulunamadı");
   return (
     <S.NotFoundContainer>
       <S.NotFoundBox>

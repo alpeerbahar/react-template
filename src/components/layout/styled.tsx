@@ -10,4 +10,5 @@ export const Layout = styled.div`
   width: 1240px;
   margin: 0 auto;
   flex: 1;
+  padding: 20px;
 `;

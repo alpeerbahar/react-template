@@ -41,7 +41,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
