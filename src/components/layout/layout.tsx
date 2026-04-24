@@ -5,13 +5,13 @@ import Footer from "../footer/footer";
 
 function Layout() {
   return (
-    <>
+    <S.LayoutContainer>
       <Header />
-      <S.LayoutContainer>
+      <S.Layout>
         <Outlet />
-      </S.LayoutContainer>
+      </S.Layout>
       <Footer />
-    </>
+    </S.LayoutContainer>
   );
 }
 

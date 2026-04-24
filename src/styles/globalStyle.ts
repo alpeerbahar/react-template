@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { color } from "./themeHelper";
+import { color } from "./themeHelpers";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -51,6 +51,6 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${color("backgroundMain")};
     color: ${color("textPrimary")};
     
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 300ms ease, color 300ms ease;
   }
 `;

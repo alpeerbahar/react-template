@@ -1,7 +1,7 @@
 export const lightTheme = {
   colors: {
-    brandPrimary: "#E53846",
-    brandSecondary: "#79000D",
+    brandPrimary: "#00A994",
+    brandSecondary: "#00483C",
 
     backgroundMain: "#F8F8F8",
     backgroundSurface: "#EEE",
@@ -11,22 +11,22 @@ export const lightTheme = {
     textPrimary: "#0B0B0B",
     textSecondary: "#3A3A3A",
     textMuted: "#717171",
-    textInverse: "#F8F8F8",
+    textInverse: "#0B0B0B",
 
-    actionDefault: "#E53846",
-    actionHover: "#FF5D64",
-    actionActive: "#FF8080",
+    actionDefault: "#00A994",
+    actionHover: "#008A76",
+    actionActive: "#007A68",
     actionSecondary: "#DEDEDE",
     actionSecondaryHover: "#CECECE",
 
     borderSubtle: "#EEE",
     borderDefault: "#CECECE",
     borderHover: "#AEAEAE",
-    borderFocus: "#E53846",
+    borderFocus: "#00A994",
 
-    selectedSurface: "#F9DDDB",
-    selectedBorder: "#E53846",
-    selectedText: "#79000D",
+    selectedSurface: "#D9E9E5",
+    selectedBorder: "#00A994",
+    selectedText: "#00483C",
 
     statusSuccess: "#006A20",
     statusSuccessText: "#002D02",
@@ -47,7 +47,7 @@ export const lightTheme = {
     borderDisabled: "#D7D7D7",
 
     backgroundOverlay: "#F8F8F8CC",
-    ringFocus: "#E5384633",
+    ringFocus: "#00A99433",
   },
   shadows: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
@@ -59,8 +59,8 @@ export const lightTheme = {
 
 export const darkTheme = {
   colors: {
-    brandPrimary: "#E53846",
-    brandSecondary: "#FFB2AF",
+    brandPrimary: "#00A994",
+    brandSecondary: "#39ECD0",
 
     backgroundMain: "#121212",
     backgroundSurface: "#1B1B1B",
@@ -70,22 +70,22 @@ export const darkTheme = {
     textPrimary: "#F8F8F8",
     textSecondary: "#CECECE",
     textMuted: "#8F8F8F",
-    textInverse: "#F8F8F8",
+    textInverse: "#0B0B0B",
 
-    actionDefault: "#E53846",
-    actionHover: "#FF5D64",
-    actionActive: "#FF8080",
+    actionDefault: "#00A994",
+    actionHover: "#008A76",
+    actionActive: "#007A68",
     actionSecondary: "#292929",
     actionSecondaryHover: "#353535",
 
     borderSubtle: "#1B1B1B",
     borderDefault: "#3A3A3A",
     borderHover: "#555",
-    borderFocus: "#E53846",
+    borderFocus: "#00A994",
 
-    selectedSurface: "#2F1C1B",
-    selectedBorder: "#E53846",
-    selectedText: "#FFB2AF",
+    selectedSurface: "#182522",
+    selectedBorder: "#00A994",
+    selectedText: "#39ECD0",
 
     statusSuccess: "#5DC879",
     statusSuccessText: "#AEF1BB",
@@ -106,7 +106,7 @@ export const darkTheme = {
     borderDisabled: "#2E2E2E",
 
     backgroundOverlay: "#121212CC",
-    ringFocus: "#E5384633",
+    ringFocus: "#00A99433",
   },
   shadows: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.2)",
